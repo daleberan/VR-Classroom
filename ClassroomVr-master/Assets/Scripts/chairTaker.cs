@@ -38,7 +38,7 @@ public class chairTaker : MonoBehaviour
     IEnumerator GotoNextScenario()
     {
        
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(24);
         SceneManager.LoadScene(1);
       
     }
